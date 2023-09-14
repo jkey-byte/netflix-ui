@@ -1,0 +1,22 @@
+.tv__container {
+  width: 95%;
+  margin: auto;
+}
+
+.tv__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+}
+
+.right {
+  margin: auto;
+}
+
+.right h1 {
+  font-size: 3rem;
+}
+
+.right h4 {
+  font-size: 1.5rem;
+}

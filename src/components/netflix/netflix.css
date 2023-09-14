@@ -1,0 +1,81 @@
+.netflix__container {
+  background: url('../../../public/assets/netflix.jpg');
+  height: 100vh;
+}
+
+.netflix__overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.holder {
+  width: 95%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header button {
+  color: #fff;
+  background: #e50914;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 3px;
+  margin-top: 1.6rem;
+}
+
+.text__container {
+  text-align: center;
+  gap: 1rem;
+  margin-top: 8rem;
+  justify-content: center;
+  align-items: center;
+  line-height: 3.5rem;
+}
+
+.text__container h1 {
+  font-size: 3.5rem;
+}
+
+.text__container h4 {
+  font-size: 1.5rem;
+}
+
+.text__container h5 {
+  font-size: 1.2rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+  width: 23rem;
+  border: 1px solid rgb(237, 235, 235);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form button {
+  padding: 1rem;
+  background: #e50914;
+  border: none;
+  text-align: center;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  width: 13rem;
+}

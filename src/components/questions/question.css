@@ -1,0 +1,83 @@
+.question__container {
+  width: 95%;
+  margin: 4rem auto;
+}
+
+.question__holder {
+  margin-bottom: 0.5rem;
+}
+
+.question__heading {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.question {
+  background: rgb(54, 54, 57);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.question:hover {
+  background: rgb(69, 69, 72);
+}
+
+.question h1 {
+  font-size: 1.5rem;
+}
+
+.question .plus__icon {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.tooltip {
+  background: rgb(54, 54, 57);
+  padding: 1.5rem;
+  margin-top: 1px;
+}
+
+.tooltip p {
+  font-size: 1.5rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  background: rgba(0, 0, 0, 0.5);
+  color: black;
+  width: 23rem;
+  border: 1px solid rgb(237, 235, 235);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form button {
+  padding: 1rem;
+  background: #e50914;
+  border: none;
+  text-align: center;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  width: 13rem;
+}
+
+.question__text-container {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}

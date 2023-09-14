@@ -1,0 +1,22 @@
+.shows__container {
+  width: 95%;
+  margin: auto;
+}
+
+.shows__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+}
+
+.left {
+  margin: auto;
+}
+
+.left h1 {
+  font-size: 3.5rem;
+}
+
+.left h4 {
+  font-size: 1.5rem;
+}

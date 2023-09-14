@@ -1,0 +1,21 @@
+.landing__container {
+  background: url('../../../public/assets/netflix.jpg');
+}
+
+.landing__overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.landing__body {
+  width: 78%;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav button {
+  background: #e50914;
+}

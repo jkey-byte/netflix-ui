@@ -1,0 +1,22 @@
+.watch__container {
+  width: 85%;
+  margin: auto;
+}
+
+.watch__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5rem;
+}
+
+.left {
+  margin: auto;
+}
+
+.left h1 {
+  font-size: 3.5rem;
+}
+
+.left h4 {
+  font-size: 1.5rem;
+}
