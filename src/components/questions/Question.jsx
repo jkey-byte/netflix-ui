@@ -12,12 +12,7 @@ const Question = () => {
       <h1 className='question__heading'>Frequently Asked Question</h1>
 
       <div className='question__holder'>
-        <div
-          className='question'
-          onClick={() => {
-            handleClick();
-          }}
-        >
+        <div className='question' onClick={handleClick}>
           <h1>What is Netflix</h1>
           <AiOutlinePlus className='plus__icon' />
         </div>
